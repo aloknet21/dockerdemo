@@ -29,13 +29,13 @@ Steps to create docker image and push it to registry:
 
     docker login
 
-    docker build -t "game:v0" .
+    docker build -t "dockerdemo:v1" .
 
     docker images
 
-    docker tag game:v0 emailtovamos/game-repo
+    docker tag game:v0 aloknet21/dockerdemo
 
-    docker push emailtovamos/game-repo
+    docker push aloknet21/dockerdemo
 
 Ensure you have VirtualBox running and the current-context of kubectl is set to be minikube:
 
