@@ -1,14 +1,4 @@
-In this example you will learn: 
-
-    How to write a pod definition in Kubernetes. 
-    
-    How to expose the pod by writing a service
-    
-    Why writing a pod directly is a bad idea and how Replicaset solves it
-
-    Drawbacks of Replicaset
-
-    How Deployment solves issue with replicaset
+This is Demo File to run a Reaction Timer website on Kubernetes.
 
 Docker commands to build image of the application:
 
